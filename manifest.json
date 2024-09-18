@@ -6,7 +6,8 @@
   "description": "Streamline web data collection with customizable keyboard shortcuts. This Chrome extension listens for user-defined key sequences, triggering automated data extraction from web pages and seamlessly integrating with Zapier workflows for enhanced productivity.",
   "permissions": [
     "tabs",
-    "scripting"
+    "scripting",
+    "https://hooks.zapier.com/"
   ],
   "host_permissions": [
     "https://gitlab.com/*"
